@@ -1,0 +1,15 @@
+body {
+  text-align: center; /*APLICAR ESTILO A UNA ETIQUETA*/
+}
+
+input {
+  margin: 5px;
+}
+
+table {
+  width: 100%; /*Distribuye las columnas dentro del contenedor*/
+}
+
+table, tr, td {
+  border: 1px black solid; /*Aplica borde a tabla, columnas y filas*/
+}

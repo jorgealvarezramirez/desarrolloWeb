@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Regristro de Clientes</h1>
+
+    <!-- Formulario de Registro -->
+
+    <input type="text" placeholder="Nombre" id="nombre" />
+    <input type="text" placeholder="Apellido" id="apellido" />
+    <br />
+    <input type="imail" placeholder="Email" id="email" />
+    <input type="telefono" placeholder="Teléfono" id="telefono" />
+    <br />
+    <button id="btnRegistrar" onclick="registrar_persona()">Registrar</button>
+    <button onclick="btnActualizar()">Actualizar</button>
+    <br />
+    <hr />
+    <br />
+
+    <!-- Tabla Personas Registradas -->
+
+    <table>
+      <!-- Cabecera de la Tabla -->
+      <thead id="cabeceraTabla">
+        <tr>
+          <td>Nombre</td>
+          <td>Apellido</td>
+          <td>Email</td>
+          <td>Teléfono</td>
+          <td>Acciones</td>
+        </tr>
+      </thead>
+      <!-- Cuerpo de la Tabla -->
+      <tbody id="cuerpoTabla"></tbody>
+    </table>
+    <script src="javascript/functions.js"></script>
+  </body>
+</html>
